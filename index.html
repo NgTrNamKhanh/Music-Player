@@ -30,9 +30,9 @@
             <div id="album-art">
             <img src="assets/pictures/antisocialites.jpg" class="active" id="_1">
             <img src="assets/pictures/dawnFM.jpg" id="_2">
-            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
-            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
-            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+            <img src="assets/pictures/French Exit.jpg" id="_3">
+            <img src="assets/pictures/Never Trust A Happpy Song.jpg" id="_4">
+            <img src="assets/pictures/Blonde.jpg" id="_5">
             <div id="buffer-box">Buffering ...</div>
             </div>
             <div id="player-controls">
@@ -51,11 +51,10 @@
                 <i class="fas fa-forward"></i>
                 </div>
             </div>
-            
             </div>
-        </div>
-        <div id="volume-slider">
-            <input type="range" id="volume" min="0" max="50" step="1" value="50">
+            <div id="volume-slider">
+                <input type="range" id="volume" min="0" max="50" step="1" value="50">
+            </div>
         </div>
         </div>
     </div>    
@@ -97,24 +96,24 @@
         albums = [
             "Antisocialites",
             "Dawn FM",
-            "Electro Boy",
-            "Home",
-            "Proxy (Original Mix)"
+            "French Exit",
+            "Never Trust A Happpy Song",
+            "Blonde"
         ],
         trackNames = [
             "Alvvays - Not My Baby",
             "The Weeknd - Out of Time",
-            "Kaaze - Electro Boy",
-            "Jordan Schor - Home",
-            "Martin Garrix - Proxy"
+            "TV Girls- Lovers Rock",
+            "Grouplove- Tongue Tied",
+            "Frank Ocean- Self Control"
         ],
         albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
         trackUrl = [
             "assets/audio/Not My Baby.mp3",
             "assets/audio/Out of Time.mp3",
-            "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-            "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-            "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+            "assets/audio/Lovers Rock.mp3",
+            "assets/audio/Tongue Tied.mp3",
+            "assets/audio/Self Control.mp3"
         ],
         playPreviousTrackButton = $("#play-previous"),
         playNextTrackButton = $("#play-next"),

@@ -267,6 +267,9 @@
   }
   
   #player-controls {
+    display: flex;
+    align-items: start;
+    justify-content: end;
     width: 250px;
     height: 100%;
     margin: 0 5px 0 141px;
@@ -275,6 +278,9 @@
   }
   
   .control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 33.333%;
     float: left;
     padding: 12px 0;
@@ -283,7 +289,7 @@
   .button {
     width: 26px;
     height: 26px;
-    padding: 25px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 6px;
     cursor: pointer;
@@ -312,11 +318,18 @@
   
 
 #volume-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 155px;
+    width: 65%;
+    top: 65px;
+    position: absolute;
     margin-top: 10px;
 }
 
 #volume {
-    width: 100%;
+    width: 90%;
     height: 10px;
     -webkit-appearance: none;
     background: #d3d3d3;
